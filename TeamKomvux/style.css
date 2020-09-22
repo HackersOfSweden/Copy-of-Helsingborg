@@ -602,5 +602,26 @@ footer {
     list-style-type: none;
 }
 
+/*CSS for Coronavirus div */
 
+.coronavirus-box {
+    background-color: #b1f5ff;
+    color: #252525;
+    padding: 15px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.corona-list-item a {
+    color: #252525;
+}
+
+.corona-list-item:first-of-type {
+    margin-bottom: 20px;
+}
+
+.corona-list {
+    list-style-type: none;
+    text-decoration: underline;
+}
 
