@@ -11,8 +11,8 @@
     615         Picture Slider
     702         container for image-title-text combo and for multiple image-title-text combo
     780         CSS for boxes with heading and text
-
-
+	1015		Paragraph divs
+	1057		lättläs section
 */
 
 * {
@@ -1095,4 +1095,106 @@ button.accordionbutton:hover, button.accordionbutton.is-open {
 }
 .customer-feedback-btn-nej:hover{
     background-color: rgb(195, 195, 195);
+}
+
+/*Paragraph divs and lättläs section => from line 1015 to line 1132 */
+
+.nav-items-header-wrapper {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.nav-items-body {
+    width: 100%;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-items-header {
+    margin-bottom: .8rem;
+}
+
+.nav-items-header-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+/*for "easy to read" section*/
+
+.fa-angle-double-left {
+    transform: rotate(-45deg);
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #464646;
+    margin-right: 1rem;
+}
+
+.etr {
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+.etr-link {
+    color: #464646;
+    text-decoration-line: none;
+}
+
+.etr-link:hover {
+    text-decoration-line: none;
+}
+
+
+/* Paragraph for divs (whole and half)*/
+
+.card-wrapper {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.half-left {
+    width: 50%;
+    float: left;
+    padding-right: 1.5rem;
+}
+
+.half-right {
+    width: 50%;
+    float: right;
+    padding-left: 1.5rem;
+}
+
+.card-body {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-top: 3px solid #981F4D;
+    padding: 1rem;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
+}
+
+.color-title {
+    color: #ae0b05;
+}
+
+.card-header {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 0.6rem;
+}
+
+.card-text {
+    font-size: 1.3rem;
+    text-indent: 2rem;
+    line-height: 1.6rem;
+}
+
+.text-link {
+    color: #ae0b05;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
 }
