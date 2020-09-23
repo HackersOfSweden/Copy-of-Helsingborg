@@ -9,8 +9,7 @@
     552         Share/Published info
     615         Picture Slider
     702         container for image-title-text combo and for multiple image-title-text combo
-    780 CSS for boxes with heading and text
-
+    780         CSS for boxes with heading and text
 
 
 */
@@ -844,3 +843,132 @@ i {
 .box-3-line-pink:hover {
     background-color: #cb0050;
 }
+.accordion-container {
+    width: 300px;
+    margin: 50px auto;
+  }
+  
+  .accordion-title-text{
+    background-color: #ae0b05;
+    height: 60px;
+  }
+  
+  .accordion-title-text h1{
+    color:#fff;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    padding-top: 5px;
+    
+  }
+  
+  button.accordionbutton {
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+  }
+  
+  button.accordionbutton:after {
+    content: '\f055';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
+  }
+  
+  button.accordionbutton.is-open:after {
+    content: '\f056';
+  }
+  
+  button.accordionbutton:hover, button.accordionbutton.is-open {
+    background-color: #ddd;
+  }
+  
+  .accordion-content {
+    background-color: white;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
+  
+  .accordionli {
+    list-style-type: none;
+    padding: 5px 0px 5px;
+    border: solid whitesmoke;
+    text-align: center;
+  
+  }
+  
+  .accordionli a{
+    text-decoration: none;
+  }
+  
+  .accordionli a:hover{
+    text-decoration: underline;
+  }
+  
+  .accordion-container {
+      width: 300px;
+      margin: 50px auto;
+    }
+  
+    .accordion-title-text{
+      background-color: #ae0b05;
+      height: 60px;
+    }
+  
+    .accordion-title-text h1{
+      color:#fff;
+      margin-bottom: 10px;
+      padding-left: 10px;
+      font-size: 25px;
+      padding-top: 5px;
+      
+    }
+    
+    button.accordionbutton {
+      width: 100%;
+      background-color: whitesmoke;
+      border: none;
+      outline: none;
+      text-align: left;
+      padding: 15px 20px;
+      font-size: 18px;
+      color: #444;
+      cursor: pointer;
+      transition: background-color 0.2s linear;
+    }
+    
+    button.accordionbutton:after {
+      content: '\f055';
+      font-family: "fontawesome";
+      font-size: 14px;
+      float: right;
+    }
+    
+    button.accordionbutton.is-open:after {
+      content: '\f056';
+    }
+    
+    button.accordionbutton:hover, button.accordionbutton.is-open {
+      background-color: #ddd;
+    }
+    
+    .accordion-content {
+      background-color: white;
+      border-left: 1px solid whitesmoke;
+      border-right: 1px solid whitesmoke;
+      padding: 0 20px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-in-out;
+    }
