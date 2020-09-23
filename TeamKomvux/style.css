@@ -27,13 +27,6 @@ body {
     text-decoration: underline;
 }
 
-.box-with-shadow {
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
-    border: 1px solid #e5e5e5;
-}
-
-/*CSS for the header*/
-
 .header-80-width {
     width: 80%;
     display: flex;
@@ -43,12 +36,12 @@ body {
 }
 
 .header-left {
-    min-width: 50%;
+    min-width: 40%;
     height: 100%;
 }
 
 .header-right {
-    min-width: 50%;
+    min-width: 60%;
     height: 100%;
 }
 
@@ -69,7 +62,7 @@ body {
 }
 
 .nav-bar-small {
-    width: 100%;
+    width: 60%;
     position: absolute;
     top: 40%;
 }
@@ -972,3 +965,48 @@ i {
       overflow: hidden;
       transition: max-height 0.2s ease-in-out;
     }
+
+.top-right-search-box
+{
+    width: 38%;
+    height: 30%;
+    margin-left: 2%;
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    border: 1px solid #e5e5e5;
+}
+.nav-searchbar
+{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3.4%;
+    padding-bottom: 3.6%;
+    background-color: #ec6701;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+}
+#nav-bar-search
+{
+    height: 100%;
+    width: 65%; 
+    border: none;  
+    align-items: center;
+    padding-left: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+}
+.search-button
+{
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.top-right-search-box i {
+    margin-left: 10px;
+}
