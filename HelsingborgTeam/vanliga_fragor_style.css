@@ -1,0 +1,128 @@
+body {
+    font-family: Roboto, system, Segoe UI, Tahoma, -apple-system;
+}
+
+.questions-box {
+    height: 100%;
+    min-height: 300px;
+    /*height: auto;*/
+    background-color: #fff;
+    
+}
+
+.questions-box .box-header {
+    margin-top: 5px;
+}
+
+.lined-box-half {
+    flex: 1;
+    margin: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
+}
+
+.first-section {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+.first-section-content {
+    flex: 1;
+    max-width: 32%;
+    align-self: flex-start;
+}
+
+.box-header {
+    background-color: #ae0b05;
+    height: 40px;
+    color: #fff;
+    padding: 10px;
+}
+
+.questions-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /*overflow-y: auto;*/
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
+}
+
+.questions-list-item {
+    border-top: 1px solid #e5e5e5;
+    background: linear-gradient(to bottom, #fff, #f9f9f9);
+    flex: 1;
+    display: flex;
+    padding-left: 10px;
+    position: relative;
+    align-items: center;
+    min-height: 51px;
+    height: auto;
+}
+
+.questions-list-item:hover {
+    cursor: pointer;
+}
+
+.questions-list-item h4 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+/* Setting absolute position of the plus icon in the relative box*/
+.questions-list-item i {
+    position: absolute;
+    right: 10px;
+}
+
+.fa {
+    max-width: 50px;
+    color: #424242;
+    transition: color 150ms;
+}
+
+.fa:hover {
+    color: #000;
+}
+
+.fa-arrow-circle-o-right {
+    margin-right: 5px;
+}
+
+.fa-arrow-circle-o-right:hover, .questions-list-item i:hover {
+    color: #424242;
+}
+
+.accordion-panel {
+    padding: 0 18px;
+    background-color: #f4f4f4;
+    display: none;
+    height: auto;
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 10px;
+}
+
+.accordion-panel article p {
+    padding: 10px;
+}
+
+.accordion-panel article p a {
+    word-break: break-all;
+}
+
+.accordion-panel article ul {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.accordion-panel article ul li::before {
+    color: #ec6701;
+    content: "\25AA";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}

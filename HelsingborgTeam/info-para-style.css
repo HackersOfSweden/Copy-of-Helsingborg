@@ -1,0 +1,49 @@
+body {
+    font-family: Roboto, system, Segoe UI, Tahoma, -apple-system;
+}
+
+
+.article h1 {
+    font-size: 2.2rem;
+    color: #ae0b05;
+    /*line-height: 2px;*/
+    word-wrap: break-word;
+    white-space: normal;
+    word-wrap: break-word;
+    margin-block-end: 3px;
+    /*overflow-wrap: break-word;
+    overflow: visible;*/
+}
+
+
+.fa-angle-double-left {
+    transform: rotate(-45deg);
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.article {
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.article a{
+    font-size: 15px;
+    display: block-inline;
+    margin-left: 8px;
+    line-height: 24px;
+    font-weight: 200;
+    color: #464646;
+    text-decoration: none;
+    text-align: center;
+}
