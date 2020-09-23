@@ -9,7 +9,7 @@
     552         Share/Published info
     615         Picture Slider
     702         container for image-title-text combo and for multiple image-title-text combo
-
+    780 CSS for boxes with heading and text
 
 
 
@@ -774,4 +774,73 @@ a {
 i {
     font-size: 2rem;
     text-decoration: none;
+}
+
+
+/* CSS for boxes with heading and text */
+
+.box-container-3-line{
+    display: flex;
+    max-width: 70%;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.box-3-line {
+        width: 30%;
+        margin-bottom: 20px;
+        margin: 10px;
+        border: 1px solid #e5e5e5;
+        color: #252525;
+        box-shadow: 0 2px 3px rgba(0,0,0,.08);
+        border-radius: 2px;
+}
+
+.box-item-3-line {
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 24px;
+    font-size: 15px;
+}
+.box-content-3-line {
+    padding: 32px;
+    font-size: 15px;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.box-3-line:hover {
+    background-color: #e5e5e5;
+    transition: .3s
+}
+
+.box-link-3-line {
+    color: rgba(0,0,0,.4);
+    font-size: 19px;
+    margin: -2px 0px 0px;
+    padding: 0px 20px 9.5px 0px;
+}
+
+.rubrik {
+    color:#cb0050;
+}
+
+.box-3-line-pink {
+    background-color: #cb0050;
+}
+
+.box-3-line-pink .box-item-3-line, .box-3-line-pink .rubrik {
+    color: white;
+}
+
+.box-3-line-pink .fa-arrow-circle-o-right {
+    color: rgba(255, 255, 255, .6);
+}
+
+.box-3-line-pink:hover {
+    background-color: #cb0050;
 }
