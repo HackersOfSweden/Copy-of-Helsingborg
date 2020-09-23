@@ -9,8 +9,6 @@ for (var i = 0; i < accordions.length; i++) {
       content.style.maxHeight = null;
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
-      var parent = this.parentElement
-      parent.style.maxHeight = parent.scrollHeight + "px";
     }
   }
 }

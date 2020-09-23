@@ -1,4 +1,5 @@
 /*General CSS for all pages/content */
+
 /* Line nos.    Template Item
 
     35          CSS for the header
@@ -13,6 +14,7 @@
 
 
 */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -230,6 +232,10 @@ body {
     flex: 1;
     padding-left: 24px;
     border-left: 4px solid rgba(255, 255, 255, .8);
+}
+
+.open-hours-heading {
+    color: white;
 }
 
 .open-hours-times-list {
@@ -492,6 +498,7 @@ footer {
 
 .chat-box h2 {
     margin-top: 10px;
+    text-transform: none;
 }
 
 .chat-box-img {
@@ -547,6 +554,7 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
 }
 
 .content-wrapper {
@@ -564,6 +572,7 @@ footer {
 .sharing-right i {
     color: #979797;
 }
+
 .sharing-right i:hover {
     color: #006ba1;
 }
@@ -602,8 +611,9 @@ footer {
 }
 
 .publish-list {
-    margin-top: 40px;
+    margin-top: 10px;
 }
+
 .publish-list-item {
     list-style-type: none;
 }
@@ -634,7 +644,7 @@ footer {
 /* style for Picture Slider */
 
 .galleryContainer {
-    border: 1px solid black; 
+    border: 1px solid black;
     color: white;
     display: inline-block;
     flex-wrap: wrap;
@@ -659,6 +669,7 @@ footer {
     top: auto;
     z-index: 2;
 }
+
 .gallerySmallContainer {
     border: 1px solid black;
     position: relative;
@@ -677,32 +688,39 @@ h2 {
     margin: 0;
     text-transform: capitalize;
 }
+
 .captionTitle, .captionText {
     border: 0mm;
     color: white;
     padding: 0mm;
     text-align: left;
 }
+
 .captionTitle {
     font-size: 21.6px;
 }
+
 .captionText {
     font-size: 14.4px;
 }
+
 .buttonPrev, .buttonNext {
     display: inline-block;
     font-size: 1.5rem;
     position: absolute;
     top: 45%;
- }
+}
+
 .buttonPrev {
     left: 3%;
 }
+
 .buttonNext {
     right: 3%;
 }
 
 /* The dots/bullets/indicators */
+
 .dot {
     cursor: pointer;
     height: 15px;
@@ -713,15 +731,16 @@ h2 {
     display: inline-block;
     transition: background-color 0.6s ease;
     z-index: 3;
-  }
-  
-  .active, .dot:hover {
+}
+
+.active, .dot:hover {
     background-color: #717171;
-  }
+}
 
 /* style for container that holds multiple image-title-text combo
      and for image-title-text combo
 */
+
 .multi-imagetext-container {
     background-color: white;
     position: relative;
@@ -731,6 +750,7 @@ h2 {
     left: 20%;
     width: 70%;
 }
+
 .image-container {
     background-color: white;
     position: relative;
@@ -741,37 +761,43 @@ h2 {
     vertical-align: top;
     width: 250px;
 }
+
 .image-container:hover {
     background: rgb(226, 218, 218);
 }
+
 .text-container {
     flex-wrap: wrap;
     text-align: left;
     text-decoration: none;
 }
+
 .pink-text {
     padding: 5mm;
     color: #cb0050;
 }
+
 .pink-text a:visited {
     color: #cb0050;
 }
+
 .black-text {
     padding: 0mm 5mm;
     color: black;
 }
+
 a {
     text-decoration: none;
 }
+
 i {
     font-size: 2rem;
     text-decoration: none;
 }
 
-
 /* CSS for boxes with heading and text */
 
-.box-container-3-line{
+.box-container-3-line {
     display: flex;
     max-width: 70%;
     flex-wrap: wrap;
@@ -782,13 +808,13 @@ i {
 }
 
 .box-3-line {
-        width: 30%;
-        margin-bottom: 20px;
-        margin: 10px;
-        border: 1px solid #e5e5e5;
-        color: #252525;
-        box-shadow: 0 2px 3px rgba(0,0,0,.08);
-        border-radius: 2px;
+    width: 30%;
+    margin-bottom: 20px;
+    margin: 10px;
+    border: 1px solid #e5e5e5;
+    color: #252525;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
+    border-radius: 2px;
 }
 
 .box-item-3-line {
@@ -798,6 +824,7 @@ i {
     line-height: 24px;
     font-size: 15px;
 }
+
 .box-content-3-line {
     padding: 32px;
     font-size: 15px;
@@ -811,14 +838,14 @@ i {
 }
 
 .box-link-3-line {
-    color: rgba(0,0,0,.4);
+    color: rgba(0, 0, 0, .4);
     font-size: 19px;
     margin: -2px 0px 0px;
     padding: 0px 20px 9.5px 0px;
 }
 
 .rubrik {
-    color:#cb0050;
+    color: #cb0050;
 }
 
 .box-3-line-pink {
@@ -836,26 +863,27 @@ i {
 .box-3-line-pink:hover {
     background-color: #cb0050;
 }
+
 .accordion-container {
-    width: 300px;
-    margin: 50px auto;
-  }
-  
-  .accordion-title-text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    left: 0;
+}
+
+.accordion-title-text {
     background-color: #ae0b05;
     height: 60px;
-  }
-  
-  .accordion-title-text h1{
-    color:#fff;
+}
+
+.accordion-title-text h1 {
+    color: #fff;
     margin-bottom: 10px;
     padding-left: 10px;
     font-size: 25px;
     padding-top: 5px;
-    
-  }
-  
-  button.accordionbutton {
+}
+
+button.accordionbutton, .accordionli, .accordion-content {
     width: 100%;
     background-color: whitesmoke;
     border: none;
@@ -866,24 +894,24 @@ i {
     color: #444;
     cursor: pointer;
     transition: background-color 0.2s linear;
-  }
-  
-  button.accordionbutton:after {
+}
+
+button.accordionbutton:after {
     content: '\f055';
     font-family: "fontawesome";
     font-size: 14px;
     float: right;
-  }
-  
-  button.accordionbutton.is-open:after {
+}
+
+button.accordionbutton.is-open:after {
     content: '\f056';
-  }
-  
-  button.accordionbutton:hover, button.accordionbutton.is-open {
+}
+
+button.accordionbutton:hover, button.accordionbutton.is-open {
     background-color: #ddd;
-  }
-  
-  .accordion-content {
+}
+
+.accordion-content {
     background-color: white;
     border-left: 1px solid whitesmoke;
     border-right: 1px solid whitesmoke;
@@ -891,83 +919,28 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
-  }
-  
-  .accordionli {
+    
+}
+
+.accordionli {
     list-style-type: none;
     padding: 5px 0px 5px;
     border: solid whitesmoke;
-    text-align: center;
-  
-  }
-  
-  .accordionli a{
-    text-decoration: none;
-  }
-  
-  .accordionli a:hover{
-    text-decoration: underline;
-  }
-  
-  .accordion-container {
-      width: 300px;
-      margin: 50px auto;
-    }
-  
-    .accordion-title-text{
-      background-color: #ae0b05;
-      height: 60px;
-    }
-  
-    .accordion-title-text h1{
-      color:#fff;
-      margin-bottom: 10px;
-      padding-left: 10px;
-      font-size: 25px;
-      padding-top: 5px;
-      
-    }
-    
-    button.accordionbutton {
-      width: 100%;
-      background-color: whitesmoke;
-      border: none;
-      outline: none;
-      text-align: left;
-      padding: 15px 20px;
-      font-size: 18px;
-      color: #444;
-      cursor: pointer;
-      transition: background-color 0.2s linear;
-    }
-    
-    button.accordionbutton:after {
-      content: '\f055';
-      font-family: "fontawesome";
-      font-size: 14px;
-      float: right;
-    }
-    
-    button.accordionbutton.is-open:after {
-      content: '\f056';
-    }
-    
-    button.accordionbutton:hover, button.accordionbutton.is-open {
-      background-color: #ddd;
-    }
-    
-    .accordion-content {
-      background-color: white;
-      border-left: 1px solid whitesmoke;
-      border-right: 1px solid whitesmoke;
-      padding: 0 20px;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-in-out;
-    }
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #444;
+}
 
-.top-right-search-box
-{
+.accordionli a, .accordion-content a, .accordionbutton a {
+    text-decoration: none;
+    color: #444;
+}
+
+.accordionli a:hover {
+    text-decoration: underline;
+}
+
+.top-right-search-box {
     width: 38%;
     height: 30%;
     margin-left: 2%;
@@ -976,32 +949,30 @@ i {
     right: 0%;
     border: 1px solid #e5e5e5;
 }
-.nav-searchbar
-{
+
+.nav-searchbar {
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 3.4%;
-    padding-bottom: 3.6%;
     background-color: #ec6701;
     border: none;
     color: #fff;
     cursor: pointer;
     float: right;
-}
-#nav-bar-search
-{
     height: 100%;
-    width: 65%; 
-    border: none;  
+}
+
+#nav-bar-search {
+    height: 100%;
+    width: 65%;
+    border: none;
     align-items: center;
     padding-left: 4%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
-
 }
-.search-button
-{
-    width: 15%;
+
+.search-button {
+    width: 35%;
     margin: 0;
     padding: 0;
     align-items: center;
@@ -1009,4 +980,119 @@ i {
 
 .top-right-search-box i {
     margin-left: 10px;
+}
+
+.breadcrumbs {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #464646;
+}
+
+.breadcrumbs_item {
+    display: inline-block;
+}
+
+.breadcrumbs_item:not(:last-of-type)::after {
+    content: '/';
+    margin: 0px 5px;
+}
+
+.breadcrumbs_link {
+    text-decoration: none;
+    color: #ae0b05;
+}
+
+.breadcrumbs_link:hover {
+    text-decoration: underline;
+}
+
+.page-container {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    display: flex;
+}
+
+.menu-left-div {
+    flex: 1;
+}
+
+.main-content {
+   flex: 3;
+   margin-top: 70px;
+   margin-left: 30px;
+}
+
+.box-with-shadow {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
+}
+
+.customer-feedback-box{
+    background-color: #f4f4f4;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+    padding: 16px;
+    border-radius: 2px;
+    margin-top: 20px;
+    
+}
+.customer-feedback-title-box{
+    color: #252525;
+    font-size: 19px;
+    line-height: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+.customer-feedback-paragraph-box{
+    font-size: .8em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+.kontaktcenter a{
+    color: #ae0b05;
+    text-decoration: none;
+}
+
+.customer-feedback-btn-ja{
+   
+    border-radius: 2px;
+    background-color: #e5e5e5;
+    border: 2px solid #e5e5e5;
+
+    padding: 8px 16px;
+    font-family: system,"Segoe UI",Tahoma,-apple-system;
+    font-size: .9em;
+    font-weight: 500;
+    line-height: 1.3;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 2.66667px;
+}
+.customer-feedback-btn-nej{
+    border-radius: 2px;
+    background-color: #e5e5e5;
+    border: 2px solid #e5e5e5;
+    appearance: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-family: system,"Segoe UI",Tahoma,-apple-system;
+    font-size: .9em;
+    font-weight: 500;
+    line-height: 1.3;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 2.66667px;
+}
+.customer-feedback-btn-ja:hover{
+    background-color: rgb(195, 195, 195);
+}
+.customer-feedback-btn-nej:hover{
+    background-color: rgb(195, 195, 195);
 }
