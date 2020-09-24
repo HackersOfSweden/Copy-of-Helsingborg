@@ -156,6 +156,42 @@ body {
     margin: 30px 0px;
 }
 
+.pink-under-acord-contact-box{
+    width: 260px;
+    background-color: #cb0050;
+    }
+    
+    .pink-background{
+        background-color: #cb0050;
+        height: 400px;
+    }
+    .red-background{
+        background-color:red;
+        width: 250px;
+    }
+    .dark-red-background{
+    background-color: #ae0b05;
+    width: 250px;
+    }
+    
+    .five-main-boxes{
+        width: 250px;
+    
+    }
+    .nyheter-box{
+        height: 300px;
+        white-space: 500px; 
+    }
+    
+    
+    .under-acord-text{
+        color:white;
+        font-size: 15px;
+    }
+    .under-acord-text:hover{
+        text-decoration: underline;
+    }
+    
 .lined-box-half {
     flex: 1;
     margin: 10px;
