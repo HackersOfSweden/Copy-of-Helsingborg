@@ -146,6 +146,8 @@ body {
     z-index: 9999;
 }
 
+
+
 /* CSS for the News section template */
 
 .two-boxes {
@@ -759,7 +761,7 @@ h2 {
     margin: 5mm;
     text-align: left;
     vertical-align: top;
-    width: 250px;
+    width: 240px;
 }
 
 .image-container:hover {
@@ -774,11 +776,11 @@ h2 {
 
 .pink-text {
     padding: 5mm;
-    color: #cb0050;
+    color: white;
 }
 
 .pink-text a:visited {
-    color: #cb0050;
+    color: white;
 }
 
 .black-text {
@@ -815,6 +817,7 @@ i {
     color: #252525;
     box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
     border-radius: 2px;
+    flex: 1;
 }
 
 .box-item-3-line {
@@ -822,14 +825,15 @@ i {
     color: black;
     display: block;
     line-height: 24px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .box-content-3-line {
     padding: 32px;
-    font-size: 15px;
+    font-size: 10px;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
+    
 }
 
 .box-3-line:hover {
@@ -839,7 +843,7 @@ i {
 
 .box-link-3-line {
     color: rgba(0, 0, 0, .4);
-    font-size: 19px;
+    font-size: 15px;
     margin: -2px 0px 0px;
     padding: 0px 20px 9.5px 0px;
 }
@@ -937,6 +941,42 @@ button.accordionbutton:hover, button.accordionbutton.is-open {
 }
 
 .accordionli a:hover {
+    text-decoration: underline;
+}
+
+.pink-under-acord-contact-box{
+width: 260px;
+background-color: #cb0050;
+}
+
+.pink-background{
+    background-color: #cb0050;
+    height: 400px;
+}
+.red-background{
+    background-color:red;
+    width: 250px;
+}
+.dark-red-background{
+background-color: #ae0b05;
+width: 250px;
+}
+
+.five-main-boxes{
+    width: 250px;
+
+}
+.nyheter-box{
+    height: 300px;
+    white-space: 500px; 
+}
+
+
+.under-acord-text{
+    color:white;
+    font-size: 15px;
+}
+.under-acord-text:hover{
     text-decoration: underline;
 }
 
