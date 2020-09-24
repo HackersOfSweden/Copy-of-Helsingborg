@@ -773,9 +773,6 @@ h2 {
     z-index: 3;
 }
 
-.active, .dot:hover {
-    background-color: #717171;
-}
 
 /* style for container that holds multiple image-title-text combo
      and for image-title-text combo*/
@@ -815,13 +812,18 @@ h2 {
 
 }
 
-.pink-text {
+.pink-color {
     padding: 5mm;
     color: #cb0050;
 }
 
+<<<<<<< HEAD
 .pink-text a:visited {
     color: #cb0050;
+=======
+.pink-color a:visited {
+    color: white;
+>>>>>>> 10f98b6636aca5f290930cfc5d4d8dbaad3444f9
 }
 
 .black-text {
@@ -1416,6 +1418,10 @@ width: 250px;
     color: #cb0050;
 }
 
+.box-container-pink p {
+    width: 100%;
+}
+
 .pink-bordertop {
     border-top: 3px solid #cb0050;
 }
@@ -1452,3 +1458,404 @@ width: 250px;
 ul.box-pink-whitetext {
     list-style-type: none;
 }
+
+/* CSS for search area on index page */
+
+.search-area {
+    height: 350px;
+    position: relative;
+}
+
+.search-area-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://helsingborg.se/wp-content/uploads/2017/05/strandpromenad-1-anna-alexander-olsson-1800x350-1-1800x350.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.stripes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 100%;
+    z-index: 99;
+}
+
+.stripes div {
+    width: 20px;
+    height: 20%;
+}
+
+.stripes div:nth-child(1) {
+    background-color: #f7a600;
+}
+
+.stripes div:nth-child(2) {
+    background-color: #cb0050;
+}
+
+.stripes div:nth-child(3) {
+    background-color: #ec6701;
+}
+
+.stripes div:nth-child(4) {
+    background-color: #ae0b05;
+}
+
+.stripes div:nth-child(5) {
+    background-color: #e3000f;
+}
+
+.search-bar {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 40%;
+}
+
+.label {
+    background-color: #ae0b05;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    height: 200px;
+}
+
+.search-input-container {
+    display: table;
+    position: relative;
+    height: 40px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.search-input {
+    height: 54px;
+    width: 75%;
+    font-size: 1em;
+    border: none;
+    padding-left: 15px;
+}
+
+.search-button-index {
+    height: 54px;
+    width: 10%;
+    font-size: 1em;
+    background-color: #ec6701;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-button-index:hover {
+    background-color: #dd6001;
+}
+
+/* CSS for Index Page */
+
+.nav-bar-small-index {
+    width: 100%;
+}
+
+.column-container {
+    width: 80%;
+    margin: auto;
+}
+
+.first-section {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+.second-section {
+    width: 80%;
+    margin: auto;
+}
+
+.first-section-content {
+    flex: 1;
+    max-width: 32%;
+    align-self: flex-start;
+}
+
+.image-box-container {
+    width: 100%;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+    max-height: 300px;
+    min-height: 300px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.image-box-container {
+    text-decoration: none;
+}
+
+.image-box-container img {
+    width: 100%;
+    position: relative;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.title-box {
+    height: 100px;
+    color: #cb0050;
+    padding: 10px;
+    font-size: 1.3em;
+    background-color: #fff;
+}
+
+.title-box-text {
+    width: 90%;
+    display: inline-block;
+}
+
+.image-box-container a {
+    text-decoration: none;
+}
+
+.questions-box {
+    height: 100%;
+    background-color: #fff;
+    min-height: 300px;
+}
+
+.questions-box .box-header {
+    margin-top: 5px;
+}
+
+.questions-content {
+    height: 86%;
+    display: flex;
+}
+
+.questions-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+}
+
+.questions-list-item {
+    border-top: 1px solid #e5e5e5;
+    background: linear-gradient(to bottom,#fff,#f9f9f9);
+    flex: 1;
+    display: flex;
+    padding-left: 10px;
+    position: relative;
+    align-items: center; 
+    min-height: 51px;
+}
+
+.questions-list-item:hover {
+    cursor: pointer;
+}
+
+.questions-list-item h4 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.questions-list-item i {
+    position: absolute; 
+    right: 10px;
+}
+
+.accordion-panel-index {
+    padding: 0 18px;
+    background-color: #f4f4f4;
+    display: none;
+    height: auto;
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 10px;
+}
+
+.accordion-panel-index article p {
+    padding: 10px;
+}
+
+.accordion-panel-index article ul {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.accordion-panel-index article ul li::before {
+    color:  #ec6701;
+    content: "\25AA";
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.event-list-item a {
+    flex: 1;
+}
+
+.event-date {
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    border-right: 1px solid #e5e5e5;
+    padding-top: 4%;
+}
+
+.when {
+    display: block;
+    font-weight: bold;
+}
+
+.month-or-time {
+    display: block;
+    font-weight: lighter;
+    font-size: 0.8em;
+}
+
+.event-footer {
+    height: 10%;
+    display: flex;
+    background-color: #f6f5f2;
+    border: 1px solid #e7e5e1
+}
+
+.event-footer ul {
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+}
+
+.event-footer li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.event-page-numbers span {
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
+    border-radius: 2px;
+    background-color: #fff;
+    font-weight: lighter;
+}
+
+.event-page-numbers span:hover {
+    background-color: #cb0050;
+    color: #fff;
+    cursor: pointer;
+}
+
+.event-page-numbers .page-numbers-active {
+    background-color: #cb0050;
+    color: #fff;
+}
+
+.event-footer .more-events {
+    flex: 10;
+    text-align: right;
+    display: flex;
+}
+
+.event-footer .more-events a {
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.event-page-numbers span, .more-events a {
+    text-decoration: none;
+    color: #000;
+}
+
+.more-events i, .more-events a {
+    margin-right: 5px;
+    color: #666666;
+}
+
+.slider-wrapper {
+    margin: 0 10px;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+
+
+.mySlides {
+    display: none; /* Hide the images by default */
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: 44px;
+    height: 44px;
+    margin-top: -18px;
+    padding: 16px;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    background: rgba(255,255,255,.75);
+}
+
+.next {
+    right: 10px;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+    border-radius: 50%;
+}
+
+.prev:hover, .next:hover {
+    background-color: #fff;
+}
+
+.prev i, .next i {
+    position: absolute;
+    top: 15px;
+    left: 17px;
+}
+
+.prev i {
+    left: 14px;
+}
+
+/* CSS for the index page slider text & dots  */
+
+.slider-info {
+    color: #fff;
+    background-color: #cb0050;
+    opacity: 0.75;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 22px;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 40px;
+}
+
+.slider-header {
+    font-size: 1.3em;
+}
+
+.active, .dot:hover {
+    background-color: #cb0050;
+}
+
