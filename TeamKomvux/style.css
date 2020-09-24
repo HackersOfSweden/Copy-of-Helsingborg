@@ -1368,3 +1368,72 @@ width: 250px;
     background-color: white;
     color: black;
 }
+
+/* uppleva page styles */
+
+.multi-imagetext-container-nomargin {
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.image-container-xs {
+    padding: 2mm;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    height: 350px;
+    text-align: left;
+    vertical-align: top;
+    width: 49%;
+}
+.width-container-xs {
+    width: 85%;
+}
+.orange-text {
+    padding: 5mm;
+    font-size: smaller;
+}
+
+.orange-text, .orange-text a:visited {
+    color: #ae0b05;
+}
+.pink-bordertext {
+    border-bottom: 3px solid #cb0050;
+}
+.box-container-pink, .pink-bordertop, .pink-bordertext, .pink-bordertext a:visited {
+    color: #cb0050;
+}
+
+.pink-bordertop {
+    border-top: 3px solid #cb0050;
+}
+.box-container-pink {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.box-pink-whitetext {
+    background-color: #cb0050;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: small;
+}
+.box-pink-whitetext a:visited{
+    color: white;
+}
+
+.box-pink-whitetext .fa-arrow-circle-o-right {
+    color: rgba(255, 255, 255, .6);
+}
+.smallertext {
+    font-size: smaller;
+}
+ul.box-pink-whitetext {
+    list-style-type: none;
+}
