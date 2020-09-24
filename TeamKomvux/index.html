@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+
+<html lang="sv-SE">
+
+<head>
+    <title>Helsingborg.se | Helsingborgs stad</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900"
+        media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="slider-header-script.js" defer></script>
+    <script src="chat-bot-script.js" defer></script>
+    <script src="accordion-menu.js" defer></script>
+    <script src="events-script.js" defer></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Header bars -->
+        <header id="header">
+            <div class="header-80-width">
+                <div class="header-quarter header-left">
+                    <a class="tooltip" href="index.html"><img src="Images/Helsingborg-Logo.JPG"
+                            alt="Helsingborg Town Logo"><span class="tooltip-text">Gå till startsidan</span></a>
+                </div>
+                <div class="header-qaurter header-right">
+                    <div class="nav-bar-small-container">
+                        <ul class="nav-bar-small">
+                            <li class="nav-bar-small-item"><a href="apology.html">Besökare</a></li>
+                            <li class="nav-bar-small-item"><a href="apology.html">Självservice</a></li>
+                            <li class="nav-bar-small-item"><a href="apology.html">Företagare</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="sticky-header" class="header-full-width">
+                <ul class="nav-bar-main">
+                    <li class="nav-bar-main-item"><a href="apology.html">Arbete</a></li>
+                    <li class="nav-bar-main-item"><a href="apology.html">Bo, bygga och miljö</a></li>
+                    <li class="nav-bar-main-item"><a href="apology.html">Förskola och utbildning</a></li>
+                    <li class="nav-bar-main-item"><a href="apology.html">Kommun och politik</a></li>
+                    <li class="nav-bar-main-item"><a href="apology.html">Omsorg och stöd</a></li>
+                    <li class="nav-bar-main-item"><a href="apology.html">Trafik och stadsplanering</a></li>
+                    <li class="nav-bar-main-item"><a href="apology.html">Uppleva och göra</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- Search area -->
+        <div id="search" class="search-area">
+            <div class="search-area-image">
+            </div>
+            <div class="stripes">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="search-bar">
+                <form method="get" action="apology.html">
+                    <label class="label">Sök på helsingborg.se</label>
+                    <div class="search-input-container">
+                        <input class="search-input" type="search" placeholder="Vad letar du efter?">
+                        <input class="search-button" type="submit" value="Sök">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Main page content -->
+        <div class="container">
+            <div class="column-container">
+                <!-- First section with 3 side by side elements -->
+                <div class="first-section">
+                    <div class="first-section-content">
+                        <div class="image-box-container">
+                            <a href="apology.html">
+                                <img src="https://helsingborg.se/wp-content/uploads/2017/05/coronabesk-scaled-800x450.jpg"
+                                    alt="Viktig information om coronaviruset">
+                                <div class="title-box">
+                                    <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                    <h5 class="title-box-text">Viktig information om coronaviruset</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="first-section-content">
+                        <div class="image-box-container">
+                            <a href="apology.html">
+                                <img src="https://helsingborg.se/wp-content/uploads/2017/05/helsingborg-vy-2020-800x450.png"
+                                    alt="Action Helsingborg – stötta ditt lokala näringsliv eller få stöd själv">
+                                <div class="title-box">
+                                    <h5 class="title-box-text"><i class="fa fa-arrow-circle-o-right title-box-arrow"
+                                            aria-hidden="true"></i>Action Helsingborg – stötta ditt lokala näringsliv
+                                        eller
+                                        få stöd själv</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="first-section-content lined-box-half questions-box">
+                        <div class="box-header">
+                            <h4 class="box-title">Vanliga frågor</h4>
+                        </div>
+                        <!-- Accordion menu. Accordion panels are set to display none. They have an on-click event listener from JavaScript that displays/hides them when clicked  -->
+                        <div class="questions-content">
+                            <div class="questions-list">
+                                <div class="questions-list-item">
+                                    <h4>Fakturafrågor</h4><i class="fa fa-plus-circle circle-right plus-icon"
+                                        aria-hidden="true"></i>
+                                </div>
+                                <div class="accordion-panel">
+                                    <article>
+                                        <p>Du kan chatta med eller ringa till kontaktcenter om du vill ha hjälp med
+                                            något av följande:</p>
+                                        <ul>
+                                            <li>Fakturakopia, OCR-nummer eller belopp.</li>
+                                            <li>Samt även autogiroblankett dock endast för hemvårdsinsatser.</li>
+                                        </ul>
+                                        <p>Behöver du få hjälp med att tolka en faktura ringer du den referens på
+                                            det telefonnummer som står längst ner till vänster på din faktura.</p>
+                                        <p><strong>Tips:</strong> Anmäl dina fakturor från Helsingborgs stad som
+                                            e-faktura. Då tappar du inte bort dem! Anmälan om e-faktura gör du hos
+                                            din bank!</p>
+                                    </article>
+                                </div>
+                                <div class="questions-list-item">
+                                    <h4>Får vi ett skolbusskort</h4><i class="fa fa-plus-circle circle-right plus-icon"
+                                        aria-hidden="true"></i>
+                                </div>
+                                <div class="accordion-panel">
+                                    <article>
+                                        <p><u><strong>Har haft resekort i våras:</strong></u><br>
+                                            Elever som redan har ett resekort för resa med buss eller tåg till
+                                            skolan får sin nya skolbiljett laddad på samma kort, förutsatt att
+                                            eleven har rätt till skolskjuts. Detta gäller alla årskurser, från
+                                            förskoleklass.<br>
+                                            Om du inte har kvar kortet behöver du vända dig till Helsingborg
+                                            kontaktcenter för att köpa ett nytt kort mot en avgift.</p>
+                                        <p><u><strong>Har inte haft reskort tidigare:</strong></u></p>
+                                        <p>Elever från årskurs 4&nbsp;som inte har haft skolbiljett tidigare men har
+                                            rätt till det nu, får ett resekort laddat med sin skolbiljett hemskickat
+                                            till sig automatiskt. Du behöver i regel inte ansöka om detta, undantag
+                                            kan vara om&nbsp;du nyligen&nbsp;har flyttat eller bytt skola, eller om
+                                            du går i gymnasieskola utanför Skåne.<br>
+                                            Elever i årskurs 1-3 i grundskola behöver göra en ansökan genom att
+                                            kontakta Helsingborg Kontaktcenter.</p>
+                                        <p>Om resekortet inte har dykt upp någon vecka in på terminsstarten, hör av
+                                            dig till oss på&nbsp;Helsingborg Kontaktcenter. Elever som är
+                                            berättigade till skolbiljett får resa med Skånetrafikens bussar och tåg
+                                            utan kort under terminens fem första skoldagar.</p>
+                                        <p>Läs mer om skolbiljett för grundskola här: <a
+                                                title="https://helsingborg.se/forskola-och-utbildning/grundskola/skolresa-skolskjuts/"
+                                                href="https://helsingborg.se/forskola-och-utbildning/grundskola/skolresa-skolskjuts/"
+                                                target="_blank"
+                                                rel="noreferrer noopener">https://helsingborg.se/forskola-och-utbildning/grundskola/skolresa-skolskjuts/</a>
+                                        </p>
+                                        <p>Läs mer om skolbiljett för gymnasieskola här: <a
+                                                title="https://helsingborg.se/forskola-och-utbildning/gymnasium/ekonomi-resor-och-boende/"
+                                                href="https://helsingborg.se/forskola-och-utbildning/gymnasium/ekonomi-resor-och-boende/"
+                                                target="_blank"
+                                                rel="noreferrer noopener">https://helsingborg.se/forskola-och-utbildning/gymnasium/ekonomi-resor-och-boende/</a>
+                                        </p>
+                                    </article>
+                                </div>
+                                <div class="questions-list-item">
+                                    <h4>Hur anmäler jag mig till SFI?</h4><i
+                                        class="fa fa-plus-circle circle-right plus-icon" aria-hidden="true"></i>
+                                </div>
+                                <div class="accordion-panel">
+                                    <article>
+                                        <p>Anmäl dig till SFI på länken nedan.</p>
+                                        <p>När du har anmält dig så kommer du att få ett e-mejl skickat till dig.
+                                            Kontrollera så att detta inte har hamnat i din skräppost.</p>
+                                        <p>I mejlet får du en länk till att välja vilken skola du ska gå på.</p>
+                                        <p>När du har valt skola så kommer du att få instruktioner i ett nytt mejl
+                                            från skolan.</p>
+                                        <p><a
+                                                href="https://helsingborg.se/forskola-och-utbildning/vuxenutbildning/utbildningar/sfi-svenskundervisning-for-invandrare/">Klicka
+                                                här för att läsa mer och anmäla dig till SFI</a></p>
+                                    </article>
+                                </div>
+                                <div class="questions-list-item">
+                                    <h4>Hur beställer jag min gymansiebetyg?</h4><i
+                                        class="fa fa-plus-circle circle-right plus-icon" aria-hidden="true"></i>
+                                </div>
+                                <div class="accordion-panel">
+                                    <article>
+                                        <p>Gymnasiebetyg som är äldre än fyra år ska finnas på stadsarkivet. Betyg
+                                            som är yngre än fyra år beställs genom skolan du gick på.</p>
+                                        <p><a
+                                                href="https://helsingborg.se/uppleva-och-gora/stadsarkivet/bestalla-betyg/">Klicka
+                                                här för att komma till beställningsformulär för stadsarkivet.</a>
+                                        </p>
+                                        <p><a
+                                                href="https://helsingborg.se/forskola-och-utbildning/helsingborgs-stads-skolor/">Klicka
+                                                här för att komma till stadens grund och gymnasieskolor.</a></p>
+                                    </article>
+                                </div>
+                                <div class="questions-list-item">
+                                    <h4>Hur läser jag upp mina betyg?</h4><i
+                                        class="fa fa-plus-circle circle-right plus-icon" aria-hidden="true"></i>
+                                </div>
+                                <div class="accordion-panel">
+                                    <article>
+                                        <p>Vet du vad du ska läsa så ansöker ni genom denna e-tjänsten <a
+                                                href="https://eservice.helsingborg.se/MenuGroup2.aspx?groupId=36">https://eservice.helsingborg.se/MenuGroup2.aspx?groupId=36</a>
+                                        </p>
+                                        <p>Vet du INTE vad du ska studera så kan ni läsa om vad dina förkunskapskrav
+                                            bör vara för varje utbildning i utbildningens informationsdel. Ni finner
+                                            samtliga utbildningar här <a
+                                                href="https://helsingborg.se/forskola-och-utbildning/vuxenutbildning/utbildningar/">https://helsingborg.se/forskola-och-utbildning/vuxenutbildning/utbildningar/</a>.
+                                            Hjälper inte den informationen dig kan ni alltid mejla till <a
+                                                href="mailto:syv.amf@helsingborg.se">syv.amf@helsingborg.se</a> där
+                                            ni beskriver er fråga tillsammans med namn, telefon, hemkommun och
+                                            personnummer.</p>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Shortcuts & events -->
+                <div class="two-boxes">
+                    <div class="lined-box-half">
+                        <div class="box-header">
+                            <h4 class="box-title">Genvägar</h4>
+                        </div>
+                        <div class="box-content">
+                            <ul class="box-list">
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Kontakta kommunen</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Anmäl fel och lämna synpunkter</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Engagera dig!</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Ansök till vuxenutbildning</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Lediga jobb</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>E-tjänster och blanketter</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Anslagstavla för beslut</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Kommunkarta</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="lined-box-half">
+                        <div class="box-header">
+                            <h4 class="box-title">Evenemnag</h4>
+                        </div>
+                        <div class="event-content">
+                            <ul class="event-list">
+                                <li class="event-list-item"><span class="event-date"><span class="when">4-20</span><span
+                                            class="month-or-time">sep</span></span><a class="event-description"
+                                        href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Utställning:
+                                        Josef
+                                        Franks
+                                        flora</a></li>
+                                <li class="event-list-item"><span class="event-date"><span class="when">7-20</span><span
+                                            class="month-or-time">sep</span></span><a class="event-description"
+                                        href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Utställning:
+                                        Passion för pelargon</a>
+                                </li>
+                                <li class="event-list-item"><span class="event-date"><span class="when">Idag</span><span
+                                            class="month-or-time">08:00</span></span><a class="event-description"
+                                        href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Internationella
+                                        suicidpreventionsdagen –
+                                        10 september</a></li>
+                                <li class="event-list-item"><span class="event-date"><span class="when">Idag</span><span
+                                            class="month-or-time">10:00</span></span><a class="event-description"
+                                        href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Barnvagnsvisning
+                                        i
+                                        Från gryning till
+                                        skymning – nordisk konst kring sekelskiftet 1900</a></li>
+                                <li class="event-list-item"><span class="event-date"><span class="when">Idag</span><span
+                                            class="month-or-time">12:15</span></span><a class="event-description"
+                                        href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Soppteater</a>
+                                </li>
+                                <li class="event-list-item"><span class="event-date"><span class="when">Idag</span><span
+                                            class="month-or-time">14:00</span></span><a class="event-description"
+                                        href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>DigiDax</a>
+                                </li>
+                            </ul>
+                            <div class="event-footer">
+                                <ul>
+                                    <li id="event-page-number-prev" class="event-page-numbers"><span>«</span></li>
+                                    <li id="event-page-number-1" class="event-page-numbers"><span class="page-numbers-active">1</span></li>
+                                    <li id="event-page-number-2" class="event-page-numbers"><span>2</span></li>
+                                    <li id="event-page-number-3" class="event-page-numbers"><span>3</span></li>
+                                    <li id="event-page-number-4" class="event-page-numbers"><span>4</span></li>
+                                    <li id="event-page-number-next" class="event-page-numbers"><span>»</span></li>
+                                    <li class="more-events"><a href="apology.html"><i class="fa fa-plus-circle"
+                                                aria-hidden="true"></i>Fler evenemang</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image Slider -->
+                <div class="slider-wrapper">
+                    <h2>Fem tips på saker att göra utomhus i Helsingborg</h2>
+                    <div class=slideshow-container>
+                        <div class="mySlides fade">
+                            <img src="https://helsingborg.se/wp-content/uploads/2020/03/4-lyft-skrot-i-det-fria-lowres-1250x375.png"
+                                style="width: 100%">
+                            <div class="slider-info">
+                                <div class="slider-header">
+                                    <h3>Lyft skrot i det fria</h3>
+                                </div>
+                                <div class="slider-text">Runtom i Helsingborg finns 20 utegym som du kan använda gratis
+                                    dygnet
+                                    runt. Du tränar utifrån dina egna förutsättningar och med din egen kroppsvikt. Här
+                                    hittar du en karta över alla utegym.</div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="https://helsingborg.se/wp-content/uploads/2020/03/3-ta-en-historisk-promenad-lowres-1250x375.png"
+                                style="width: 100%">
+                            <div class="slider-info">
+                                <div class="slider-header">
+                                    <h3>Ta en historisk promenad</h3>
+                                </div>
+                                <div class="slider-text">Gå i konsul Trapps fotspår i det historiska området runt
+                                    Kärnan. Eller
+                                    upplev Helsingborgs hamn med konsul Ingelssons glasögon. Det finns fyra olika
+                                    stadsvandringar och du skriver själv ut karta och broschyr.</div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="https://helsingborg.se/wp-content/uploads/2020/03/2-upplev-kusten-pa-tva-hjul-lowres-1250x375.png"
+                                style="width: 100%">
+                            <div class="slider-info">
+                                <div class="slider-header">
+                                    <h3>Upplev kusten på två hjul</h3>
+                                </div>
+                                <div class="slider-text">Kattegattleden är Sveriges första nationella cykelled och går
+                                    mellan
+                                    Göteborg och Helsingborg. Norrut från Helsingborg passerar du Sofiero och cyklar
+                                    sedan
+                                    längs stranden förbi Domsten och Viken.</div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="https://helsingborg.se/wp-content/uploads/2020/03/6-bli-svettig-helt-gratis-lowres-1250x375.png"
+                                style="width: 100%">
+                            <div class="slider-info">
+                                <div class="slider-header">
+                                    <h3>Bli svettig helt gratis</h3>
+                                </div>
+                                <div class="slider-text">Oavsett om du går, joggar eller springer finns det en
+                                    motionsslinga för
+                                    dig. En del slingor är upplysta med elljus. Här hittar du samtliga slingor.</div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="https://helsingborg.se/wp-content/uploads/2020/03/10-ga-pa-konstrunda-hemmavid-lowres-1250x375.png"
+                                style="width: 100%" style="width:100%">
+                            <div class="slider-info">
+                                <div class="slider-header">
+                                    <h3>Gå på konstrunda hemmavid</h3>
+                                </div>
+                                <div class="slider-text">Har du koll på konstverken runt om i staden? I allas ögon är en
+                                    guide som
+                                    tar upp 86 offentliga konstverk i Helsingborg. Skriv ut och ta med dig på
+                                    promenaden, du
+                                    hittar den här.</div>
+                            </div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-chevron-left"></i></a>
+                        <a class="next" onclick="plusSlides(1)"><i class="fa fa-chevron-right"></i></a>
+
+                        <!-- The dots/circles -->
+                        <ul class="slider-dots" style="text-align:center">
+                            <li class="dot" onclick="currentSlide(1)"></li>
+                            <li class="dot" onclick="currentSlide(2)"></li>
+                            <li class="dot" onclick="currentSlide(3)"></li>
+                            <li class="dot" onclick="currentSlide(4)"></li>
+                            <li class="dot" onclick="currentSlide(5)"></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- News section -->
+            <div class="second-section">
+                <div class="two-boxes">
+                    <div class="lined-box-half">
+                        <div class="box-header">
+                            <h4 class="box-title">Nyheter</h4>
+                        </div>
+                        <div class="box-content">
+                            <ul class="box-list">
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Åtgärdspaket på 3,15 miljoner till
+                                        näringslivet</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Kommunfullmäktige beslutade om
+                                        flygplatsavtal och fastighetsköp</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Många fiskar har hittats döda i
+                                        Råån</a>
+                                </li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Begränsad framkomlighet på
+                                        Ängelholmsleden
+                                        från 7 september</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Nya avgifter för felparkering från och
+                                        med
+                                        1 juli</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Förberedelser igång inför dubbelspår
+                                        mellan
+                                        Ängelholm och Maria station</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Detta gäller om du har köpt en resa
+                                        eller
+                                        evenemang som påverkats av coronapandemin</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Lämna din fallfrukt till
+                                        återvinning</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="lined-box-half">
+                        <div class="box-header">
+                            <h4 class="box-title">Nyheter</h4>
+                        </div>
+                        <div class="box-content">
+                            <ul class="box-list">
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Genomgående bra badvattenkvalitet i
+                                        Helsingborg i sommar</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Kommunerna tar över Ängelholm
+                                        Helsingborgs
+                                        flygplats</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Nytt åtgärdspaket ska stötta
+                                        föreningslivet</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Vi bygger om på bussterminalen på
+                                        Helsingborg C</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Helsingborgs stad är finalist i EU:s
+                                        innovationstävling</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Håll ut, håll avstånd – så gör vi i
+                                        Helsingborg</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Vi bygger en park på Drottninghög i
+                                        höst</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Årlig trygghetsmätning skickas ut till
+                                        helsingborgare</a></li>
+                                <li class="box-list-item"><a href="apology.html"><i class="fa fa-arrow-circle-o-right"
+                                            aria-hidden="true"></i>Stopp i tågtrafiken mellan Helsingborg
+                                        och
+                                        Eslöv från 31 augusti</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Us section -->
+    <div class="contact-container">
+        <div class="contact-text-container">
+            <div class="contact-info">
+                <h1 class="contact-header">Kontakta kommunen - En väg in</h1>
+                <p class="contact-text">När du kontaktar oss är det kommunvägledarna på Helsingborg kontaktcenter
+                    som tar hand om dina frågor.</p>
+            </div>
+
+            <div class="open-hours">
+                <h2 class="open-hours-heading">Öppettider</h2>
+                <ul class="open-hours-times">
+                    <li class="open-hours-times-list">Måndag-torsdag 07:00-19:00</li>
+                    <li class="open-hours-times-list">Fredag 07:00-17:00</li>
+                    <li class="open-hours-times-list">Lördag 10:00-15:00</li>
+                </ul>
+                <p class="open-hours-small">Avvikande öppettider kan förekomma i samband med röda dagar, samt
+                    dag innan röd dag.
+                </p>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact-banner-item">
+                <div class="contact-banner-item-header">
+                    <img src="Images/chat.JPG" alt="Chat Logo">
+                    <h3 class="contact-banner-item-title">Chatta</h3>
+                </div>
+                <p class="contact-banner-item-content">Få svar direkt – chatta med en kommunvägledare</p>
+                <div class="contact-banner-link">
+                    <a class="contact-banner-link" href="apology.html">Start Chatt ></a>
+                </div>
+            </div>
+            <div class="contact-banner-item">
+                <div class="contact-banner-item-header">
+                    <img src="Images/mail.JPG" alt="Email Logo">
+                    <h3 class="contact-banner-item-title">Mejla</h3>
+                </div>
+                <p class="contact-banner-item-content">Få svar inom 24 timmar kontaktcenter@helsingborg.se
+                </p>
+                <div class="contact-banner-link">
+                    <a class="contact-banner-link" href="apology.html">Skicka Mejl ></a>
+                </div>
+            </div>
+            <div class="contact-banner-item">
+                <div class="contact-banner-item-header">
+                    <img src="Images/visit.JPG" alt="Visit Logo">
+                    <h3 class="contact-banner-item-title">Besök</h3>
+                </div>
+                <p class="contact-banner-item-content">Besök oss på Helsingborg Kontaktcenter på Stortorget
+                    17</p>
+                <div class="contact-banner-link">
+                    <a class="contact-banner-link" href="apology.html">Visa Karta ></a>
+                </div>
+            </div>
+            <div class="contact-banner-item">
+                <div class="contact-banner-item-header">
+                    <img src="Images/ring.JPG" alt="Ring Logo">
+                    <h3 class="contact-banner-item-title">Ring</h3>
+                </div>
+                <p class="contact-banner-item-content">Prata med en kommunvägledare på telefon 042-10 50 00</p>
+                <div class="contact-banner-link">
+                    <a class="contact-banner-link" href="apology.html">Ring ></a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-banner-extra">
+            <a class="contact-banner-info" href="apology.html">Läs mer om Helsingborg kontaktcenter &gt;&gt;</a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html"><img src="Images/Helsingborg-Logo-Grey.JPG" alt="Helsingborg Town Logo"></a>
+            </div>
+            <div class="footer-address-container">
+                <p class="footer-address"><strong>Postadress</strong><br><span class="footer-light">Namn på
+                        verksamheten<br>251 89 Helsingborg</span>
+                </p>
+                <p class="footer-address"><span class="footer-light">Organisationsnummer: 212000-1157</span></p>
+            </div>
+            <div class="footer-link-container">
+                <p class="footer-link"><a href="apology.html">Om webbplatsen</a>.</p>
+                <p class="footer-link"><a href="apology.html">Så behandlar Helsingborgs stad dina
+                        personuppgifter</a>.</p>
+            </div>
+            <div class="footer-menu-container">
+                <div class="footer-menu-link"><a href="apology.html">Larm</a></div>
+                <div class="footer-menu-link"><a href="apology.html">Translate</a></div>
+                <div class="footer-menu-link"><a href="apology.html">Press</a></div>
+            </div>
+            <div class="footer-form">
+                <input class="footer-form-input" type="text" placeholder="Ange möteskod för att börja chatta">
+            </div>
+            <div class="social-media-container">
+                <ul class="icon-list">
+                    <li class="icon-list-item"><a href="https://www.facebook.com/Helsingborgsstad" target="_blank"><i
+                                class="fa fa-3x fa-facebook-square"></i></a></li>
+                    <li class="icon-list-item"><a href="https://twitter.com/hbgstad" target="_blank"><i
+                                class="fa fa-3x fa-twitter-square"></i></a>
+                    </li>
+                    <li class="icon-list-item"><a href="https://www.linkedin.com/company/helsingborg/"
+                            target="_blank"><i class="fa fa-3x fa-linkedin-square"></i></a></li>
+                    <li class="icon-list-item"><a href="https://www.instagram.com/helsingborgsstad/" target="_blank"><i
+                                class="fa fa-3x fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Chat bot & elevator button -->
+
+        <div class="chat">
+            <div id="chat-clickme" class="chat-button">
+                <div class="chat-button-content"><i class="fa fa-commenting-o" aria-hidden="true"></i> Chatta</div>
+            </div>
+            <div id="chat-clickme-display" class="chat-box">
+                <div id="chat-box-close">X</div>
+                <h2>Sorry, our chat bot is taking a break right now!</h2>
+                <div class="chat-box-img">
+                    <img src="https://img.freepik.com/free-vector/alien-robot-has-arrived-rocket-is-sleeping-sleep-mode-hibernation-sitting-mtaphor-closed_138353-38.jpg?size=626&ext=jpg"
+                        alt="Sleeping Robot">
+                </div>
+            </div>
+        </div>
+        <div id="scroll-elevator" class="elevator-button">
+            <div>
+                <a href="#wrapper"><i class="fa fa-chevron-up"></i>Till toppen</a>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>

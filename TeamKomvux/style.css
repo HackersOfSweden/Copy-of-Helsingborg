@@ -565,7 +565,7 @@ footer {
 
 .sharing-left i, .sharing-right i {
     display: inline;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 5px;
 }
 
@@ -612,6 +612,8 @@ footer {
 
 .publish-list {
     margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
 }
 
 .publish-list-item {
@@ -799,22 +801,19 @@ i {
 
 .box-container-3-line {
     display: flex;
-    max-width: 70%;
     flex-wrap: wrap;
-    margin: auto;
-    padding: 10px;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
 }
 
 .box-3-line {
-    width: 30%;
+    min-width: 30%;
     margin-bottom: 20px;
-    margin: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
     border: 1px solid #e5e5e5;
     color: #252525;
     box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
     border-radius: 2px;
+    flex: 1;
 }
 
 .box-item-3-line {
@@ -826,7 +825,7 @@ i {
 }
 
 .box-content-3-line {
-    padding: 32px;
+    padding: 15px;
     font-size: 15px;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -1151,19 +1150,17 @@ button.accordionbutton:hover, button.accordionbutton.is-open {
 /* Paragraph for divs (whole and half)*/
 
 .card-wrapper {
-    width: 80%;
-    margin: 2rem auto;
+    margin: 1rem auto;
+    display: flex;
 }
 
 .half-left {
-    width: 50%;
-    float: left;
+    flex: 1;
     padding-right: 1.5rem;
 }
 
 .half-right {
-    width: 50%;
-    float: right;
+    flex: 1;
     padding-left: 1.5rem;
 }
 
@@ -1180,21 +1177,119 @@ button.accordionbutton:hover, button.accordionbutton.is-open {
 }
 
 .card-header {
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 0.6rem;
 }
 
 .card-text {
-    font-size: 1.3rem;
-    text-indent: 2rem;
-    line-height: 1.6rem;
+    font-size: 1rem;
 }
 
 .text-link {
     color: #ae0b05;
     text-decoration: none;
-    font-weight: 600;
     cursor: pointer;
+}
+
+.pink-kontakt-center {
+    background-color: #cb0050;
+    width: 58%;
+    border-radius: 2px;
+}
+
+.pink-kontakt-center:hover {
+    background-color: #bc004a;
+}
+
+.kontakt-center-heading {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.pink-rubrik {
+    color: white;
+}
+
+.pink-rubrik:hover {
+    text-decoration: underline;
+}
+
+.kommun-news-item {
+    padding: 10px;
+}
+
+.kommun-news-item i {
+    font-size: 1em;
+    color: rgba(0,0,0,.4);
+    margin-right: 5px;
+}
+
+.kommun-card-body {
+    margin:0;
+    padding: 0;
+}
+
+.kommun-card-wrapper {
+    width: 100%;
+}
+
+.kommun-card {
+    width: 100%;
+}
+
+.image-and-text-container {
+    background-color: #cb0050;
+    position: relative;
+}
+
+.image-left-div {
+    width: 45%;
+    background-image: url(https://helsingborg.se/wp-content/uploads/2020/04/h22-graffiti-1920x1080-1-scaled-960x540.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    background-position: center center;
+}
+
+.text-right-div {
+    width: 55%;
+    right: 0%;
+    margin-left: 45%;
+    padding: 30px;
+}
+
+.text-right-content {
+    width: 90%;
+    color: white;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.image-header-text {
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.image-info-text {
+    margin-bottom: 30px;
+}
+
+.image-button {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 7px;
+    font-size: 0.8em;
+}
+
+.image-button:hover {
+    background-color: white;
+    color: black;
 }
