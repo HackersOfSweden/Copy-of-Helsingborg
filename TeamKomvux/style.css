@@ -811,21 +811,20 @@ h2 {
     overflow: auto;
 
 }
-
 .pink-color {
     padding: 5mm;
     color: #cb0050;
 }
-
-<<<<<<< HEAD
+.pink-text {
+    padding: 5mm;
+    color: #cb0050;
+}
 .pink-text a:visited {
     color: #cb0050;
-=======
+}    
 .pink-color a:visited {
     color: white;
->>>>>>> 10f98b6636aca5f290930cfc5d4d8dbaad3444f9
 }
-
 .black-text {
     padding: 0mm 5mm;
     color: black;
