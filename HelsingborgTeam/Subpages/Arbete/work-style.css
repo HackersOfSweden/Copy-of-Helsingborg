@@ -952,6 +952,41 @@ ul.breadcrumb {
     .fa-caret-down {
         margin-right: 5px;
     }
+
+    /*---------------------------To the Top Button---------------------------*/
+
+    .myBtn {
+        position: fixed;
+        right: 20px;
+        bottom: 10px;
+        display: block;
+        background-color: #cb0050;
+        border-radius: 40px;
+        height: 40px;
+        box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .3);
+    }
+     
+    .myBtn a {
+        color: #fff;
+        line-height: 40px;
+        font-size: 0.9em;
+        padding-right: 15px;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .myBtn a i {
+        padding-right: 10px;
+        color: #fff;
+    }
+    
+    .myBtn a i:hover {
+        color: #fff;
+    }
+
+    #scroll-button {
+        display: none;
+    }
    
 
 

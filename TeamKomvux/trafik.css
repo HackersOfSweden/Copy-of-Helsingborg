@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.breadcrumbs {
+    margin: 20px 0;
+}
+
+.breadcrumbs_onclik {
+    padding-left: 8rem;
+}
+
+.info-virus .content-wrapper {
+    width: 100%;
+}
+
+#article-width {
+    width: 100%;
+}
+
+.main-trafik {
+    display: flex;
+    padding: 10px 100px;
+}
+
+.info-skanetrafiken>a {
+    text-decoration-line: underline;
+    color: #0095db;
+    font-size: 14px;
+}
+
+.sidebar-trafik {
+    flex-basis: 25%;
+    margin-right: 30px;
+}
+
+.content-trafik {
+    flex-basis: 75%;
+}
+
+.sub-menu {
+    position: relative;
+    border: 1px solid #f4f4f4;
+    padding: 10px 0 10px 20px;
+}
+
+.sub-menu:hover {
+    background-color: #f4f4f4;
+}
+
+.sub-menu a {
+    font-size: 1.4rem;
+    color: #252525;
+}
+
+.load-sub-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    border-left: 1px solid #f4f4f4;
+    background-color: inherit;
+    padding: 8px 16px;
+}
+
+.fa-caret-down {
+    font-size: 1.5em;
+}
+
+.sidebar-content-area {
+    width: 100%;
+}
+
+.content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sb-card {
+    display: flex;
+    min-height: 1px;
+    width: 33.3333%;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-bottom: 30px;
+    max-width: 33.3333%;
+}
+
+.card-link {
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-content {
+    padding: 20px;
+    font-size: 1.1rem;
+    color: #252525;
+    line-height: 1.4;
+}
+
+.card-link:hover {
+    background-color: #e5e5e5;
+}
+
+#card-wrapper {
+    display: block;
+}
+
+#content-wrapper {
+    width: 100%;
+    margin-left: 0;
+}
+
+#card-news {
+    padding: 0;
+}
+
+#card-news ul li a {
+    color: #ae0b05;
+    font-size: 14px;
+}
+
+.trafik-nyheter ul li {
+    list-style-type: none;
+    padding: 10px 20px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.link-item::before {
+    content: "\f35a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 1.4rem;
+    position: relative;
+    padding: 0 8px;
+}
