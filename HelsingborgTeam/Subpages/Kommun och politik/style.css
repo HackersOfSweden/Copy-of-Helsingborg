@@ -1,0 +1,218 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color: #ffffff;
+    font-family:Roboto,system,Segoe UI,Tahoma,-apple-system;
+}
+
+.navBar {
+    background-color: #ae0b05;
+    padding:35px;
+    white-space:nowrap;
+    text-align: center;
+    }
+    
+    .navBar a{
+    text-decoration:none;
+    color:white;
+    margin-left:12px;
+    font-size:110%;
+    }
+
+  
+    .coronaInfo{
+        
+        background-color: #b1f5ff;;
+        margin-right:auto;
+        margin-top:25px;
+        text-align: left;
+    }
+
+    .coronaInfo a{
+        color:black;
+        padding-left: 20px;
+        white-space: nowrap;
+    }
+   
+    .pageInfo a{
+        background-color:#cb0050 ;
+        color:white;
+    }
+
+    /*Desktop sidelinks (only visible on desktop)*/
+    .deskTopSideLinkMenu{
+        list-style:none;
+      
+        
+    }
+    .deskTopSideLinkMenu li{
+        font-size:0.85em;
+        border-style:solid;
+        border-color: lightgrey;
+        border-width:0.01em;
+        padding-top:7px;
+        padding-bottom:7px;
+        
+    }
+
+    .deskTopSideLinkMenu i{
+        float: right;
+        margin-left: 5px;
+        margin-right: 5px;
+      
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: 0.25fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows:0.5fr repeat(4,1fr);
+        grid-column-gap: 40px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 6 / 2; }
+        .div2 { grid-area: 1 / 2 / 2 / 3; }
+        .div3 { grid-area: 2 / 2 / 3 / 3; }
+        .div4 { grid-area: 3 / 2 / 4 / 3; }
+        .div5 { grid-area: 4 / 2 / 5 / 3; }
+        .div6 { grid-area: 5 / 2 / 6 / 3; }
+
+        .quickLinksWrapperFlex {
+            display:flex;
+            flex-basis:33%;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .quickLinks{
+            flex:0 0 25%;
+            border:1px solid #e5e5e5;
+            margin:10px;
+            box-shadow:0 2px 3px rgba(0,0,0,.08);
+        }
+
+        .quickLinks i{
+          display: inline;
+          float: left;
+        }
+
+        .quickLinks h5{
+            margin:0;
+            padding:0;
+            color:#cb0050;
+            font-size:19px;
+        }
+        @media only screen and (max-width: 1300px){
+            .div1{
+                display:none;
+            }
+        }
+
+        #pinkLinks{
+            background-color: #cb0050;
+            color:#fff;
+            
+        }
+        #pinkLinks h5{
+            color:#fff;
+        }
+
+        .pageInfo h1{
+            color:#ae0b05;
+
+        }
+
+        .text{
+            color: #252525;
+            font-size: 1.2em;
+            font-weight: 700;
+        }
+
+        .pageInfo a{
+            padding: .5em .9em;
+            font-size: 1.1em;
+            font-weight: 500;
+            margin-top:10px;
+            display: inline-block;
+        }
+
+        .pageInfo{
+            margin-bottom:10px;
+        }
+
+        
+/*
+        .findInfo p {
+         flex:0 0 25%;
+         border:1px solid #e5e5e5;
+         margin:10px;
+         box-shadow:0 2px 3px rgba(0,0,0,.08);
+
+        }
+
+*/
+
+.simpleBox a{
+    color:#ae0b05;
+}
+.simpleBox h4{
+    color:#cb0050;
+}
+.textBox{
+    border-top-style: solid;
+    border-color:#cb0050;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+    text-align: center;
+}
+
+.infoBoxWrapper{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.simpleBox{
+    justify-content: center;
+    flex:0 0 45%;
+    margin-right: 20px;
+
+}
+
+#lastSimpleBox{
+   
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin:0;
+    flex: 0 0 70%;
+    margin:0 auto;
+}
+.cityExpo{
+    width:90%;
+}
+.expoPic{
+    background:url(cityExpo.jpg) repeat 0 0;
+   
+    width:960px;
+    height:540px;
+    background-position: center;
+}
+.expoText{
+    width:960px;
+    background-color: #cc0051;
+    color:white;
+    
+}
+
+.expoText a{
+color:white;
+
+}
+.expoText p,h2{
+    padding:20px;
+}
+
+.expoText h2{
+    margin:0;
+}
