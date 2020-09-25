@@ -104,9 +104,13 @@ ul li {
 
 .card-content {
     padding: 20px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #252525;
     line-height: 1.4;
+}
+
+.card-link:hover {
+    background-color: #e5e5e5;
 }
 
 #card-wrapper {
